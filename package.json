@@ -1,0 +1,13 @@
+{
+  "name": "com.skibitsky.asuka",
+  "version": "0.0.0",
+  "displayName": "Asuka",
+  "description": "What are you, stupid?",
+  "repository": "skibitsky/asuka",
+  "author": {
+    "name": "Gleb Skibitsky",
+    "email": "gleb@skibitsky.com",
+    "url": "https://skibitsky.com"
+  },
+  "license": "MIT"
+}
