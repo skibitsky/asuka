@@ -4,7 +4,6 @@ Asuka is the collection of little utilities and extensions I use when working in
 
 The goal is to create a Unity Package that I could easily plug into any project and avoid reimplementing same things over and over again. It should be as easy as to put Asuka into Eva.
 
-I am trying to avoid third-party dependencies in this package. Still need to find a way to share my extensions for third-party libraries. For now, I will just put them below.
 
 ## Third-Party Extensions
 
