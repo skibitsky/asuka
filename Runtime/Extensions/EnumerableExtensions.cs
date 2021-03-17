@@ -10,7 +10,7 @@ namespace Skibitsky.Asuka
         public static T RandomElement<T>(this IEnumerable<T> source) => 
             source.RandomElementUsing<T>(new Random());
 
-        public static T RandomElementUsing<T>(this IEnumerable<T> source, Random rand)
+        public static T RandomElement<T>(this IEnumerable<T> source, Random rand)
         {
             var array = source as T[] ?? source.ToArray();
             var index = rand.Next(0, array.Length);
