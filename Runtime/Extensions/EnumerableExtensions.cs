@@ -8,7 +8,7 @@ namespace Skibitsky.Asuka
     {
         // https://stackoverflow.com/a/7259419
         public static T RandomElement<T>(this IEnumerable<T> source) => 
-            source.RandomElementUsing<T>(new Random());
+            source.RandomElement<T>(new Random());
 
         public static T RandomElement<T>(this IEnumerable<T> source, Random rand)
         {
