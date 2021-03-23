@@ -32,7 +32,7 @@ namespace Skibitsky.Asuka
         public void Dispose()
         {
             _stopwatch.Stop();
-            _logger?.Invoke($"[DisposableStopwatch]: {_name} took {_stopwatch.Elapsed}");
+            _logger?.Invoke($"[DisposableStopwatch]: {_name} took {_stopwatch.Elapsed.Milliseconds} milliseconds");
         }
     }
 }
